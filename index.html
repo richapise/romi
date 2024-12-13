@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<!-- saved from url=(0035)http://localhost/mangement/Home.php -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Driving School Management</title>
+    <link rel="stylesheet" href="./index_files/bootstrap.min.css">
+    <style>
+    body {
+        font-family: 'Roboto', sans-serif;
+    }
+
+    /* Header Styles */
+    .top-nav {
+        background-color: #fff;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        padding: 20px 40px;
+    }
+
+    .top-nav .navbar-brand {
+        font-weight: bold;
+    }
+
+    .top-nav .nav-link {
+        color: #333;
+        font-weight: bold;
+        margin-left: 20px;
+    }
+
+    /* Flex container for nav links */
+    .top-nav .nav-links {
+        display: flex;
+        align-items: center;
+    }
+
+    /* Hero Section */
+    .hero {
+        background: #f2f2f2;
+        padding: 60px 40px;
+        text-align: center;
+    }
+
+    .hero h1 {
+        font-size: 48px;
+        font-weight: 700;
+    }
+
+    .hero p {
+        font-size: 20px;
+        margin: 20px 0;
+    }
+
+    .hero .cta-button {
+        background-color: #ff5a5f;
+        color: white;
+        padding: 15px 30px;
+        border: none;
+        border-radius: 5px;
+        text-decoration: none;
+    }
+
+    /* Packages Section */
+    .packages-section {
+        background: #fff;
+        padding: 60px 40px;
+        text-align: center;
+    }
+
+    .packages-section h2 {
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+
+    .packages-card {
+        background-color: #f9f9f9;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        margin: 10px;
+    }
+
+    .packages-card h3 {
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+
+    .packages-card .price {
+        font-size: 32px;
+        margin: 10px 0;
+    }
+
+    .packages-card p {
+        font-size: 16px;
+    }
+
+    .packages-card .cta-button {
+        background-color: #ff5a5f;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        text-decoration: none;
+    }
+
+    /* Testimonial Section */
+    .testimonial-section {
+        background: #fff;
+        padding: 60px 40px;
+        text-align: center;
+    }
+
+    .testimonial-carousel {
+        display: flex;
+        overflow-x: auto;
+        scroll-behavior: smooth;
+    }
+
+    .testimonial-item {
+        padding: 20px;
+        background: #f9f9f9;
+        margin-right: 20px;
+        border-radius: 10px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        min-width: 300px;
+    }
+
+    /* Image Gallery Section */
+    .image-gallery {
+        background: #f2f2f2;
+        padding: 60px 40px;
+    }
+
+    .image-gallery img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+        transition: transform 0.3s ease;
+    }
+
+    .image-gallery img:hover {
+        transform: scale(1.05);
+    }
+
+    .gallery-item {
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    
+</style>
+
+<link type="text/css" rel="stylesheet" href="./index_files/css2"></head>
+<body>
+
+    <!-- Header -->
+    <div class="top-nav d-flex justify-content-between align-items-center">
+        <a class="navbar-brand" href="http://localhost/mangement/Home.php">Driving School</a>
+        <div class="nav-links">
+            <a href="http://localhost/mangement/Home.php" class="nav-link">Home</a>
+            <a href="http://localhost/mangement/login_form.php" class="nav-link">Login</a>
+            <a href="http://localhost/mangement/register_form.php" class="nav-link">Register</a>
+            <a href="http://localhost/mangement/feedback.php" class="nav-link">Feedback</a>
+            <a href="http://localhost/mangement/chatbot/index.php" class="nav-link">chat</a>
+
+           
+
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <div class="hero">
+        <h1>Drive Safe, Drive Smart</h1>
+        <p>We make it easier for you to get your driver's license</p>
+        <a href="http://localhost/mangement/register_form.php" class="cta-button">Get Started</a>
+    </div>
+
+    <div class="image-gallery">
+    <h2 class="text-center">Our Services</h2>
+    <div class="row">
+        <div class="col-md-3 gallery-item">
+            <a href="http://localhost/mangement/register_form.php">
+                <img src="./index_files/driving-school-with-education-process-of-car-training-and-learning-to-drive-to-get-drivers-license-in-flat-cartoon-hand-drawn-templates-illustration-vector.jpg" alt="Login Illustration">
+            </a>
+        </div>
+        <div class="col-md-3 gallery-item">
+            <a href="http://localhost/mangement/register_form.php">
+                <img src="./index_files/driving-school-with-education-process-of-car-training-and-learning-to-drive-to-get-drivers-license-in-flat-cartoon-hand-drawn-templates-illustration-vector(1).jpg" alt="Driving Illustration">
+            </a>
+        </div>
+        <div class="col-md-3 gallery-item">
+            <a href="http://localhost/mangement/register_form.php">
+                <img src="./index_files/driving-school-with-education-process-of-car-training-and-learning-to-drive-to-get-drivers-license-in-flat-cartoon-hand-drawn-templates-illustration-vector(2).jpg" alt="Driving Car">
+            </a>
+        </div>
+        <div class="col-md-3 gallery-item">
+            <a href="http://localhost/mangement/register_form.php">
+                <img src="./index_files/driving-school-with-education-process-of-car-training-and-learning-to-drive-to-get-drivers-license-in-flat-cartoon-hand-drawn-templates-illustration-vector(3).jpg" alt="Driver License">
+            </a>
+        </div>
+    </div>
+</div>
+
+
+    <!-- Packages Section -->
+    <div class="packages-section">
+        <h2>Our Packages</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-4 packages-card">
+                <h3>1 Year Package</h3>
+                <div class="price">₹15000.00</div>
+                <p>This package includes 1 year of driving lessons and practice sessions.</p>
+                <p>Duration: 1 Year</p>
+                <a href="http://localhost/mangement/register_form.php" class="cta-button">Select Package</a>
+            </div>
+            <div class="col-md-4 packages-card">
+                <h3>6 Month Package</h3>
+                <div class="price">₹10000.00</div>
+                <p>This package includes 6 months of driving lessons and practice sessions.</p>
+                <p>Duration: 6 Months</p>
+                <a href="http://localhost/mangement/register_form.php" class="cta-button">Select Package</a>
+            </div>
+            <div class="col-md-4 packages-card">
+                <h3>3 Month Package</h3>
+                <div class="price">₹5000.00</div>
+                <p>This package includes 3 months of driving lessons and practice sessions.</p>
+                <p>Duration: 3 Months</p>
+                <a href="http://localhost/mangement/register_form.php" class="cta-button">Select Package</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Testimonial Section -->
+    <div class="testimonial-section">
+        <h2>What Our Students Say</h2>
+        <div class="testimonial-carousel">
+            <div class="testimonial-item">
+                <p>"Great driving school! The instructors are very professional and helpful."</p>
+                <p>- Alex Smith</p>
+            </div>
+            <div class="testimonial-item">
+                <p>"I had a fantastic experience. Highly recommend this place for learning to drive."</p>
+                <p>- Sarah Johnson</p>
+            </div>
+            <div class="testimonial-item">
+                <p>"The process was smooth, and I got my license quickly. Excellent service."</p>
+                <p>- Michael Brown</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="./index_files/jquery-3.5.1.slim.min.js.download"></script>
+    <script src="./index_files/popper.min.js.download"></script>
+    <script src="./index_files/bootstrap.min.js.download"></script>
+
+
+<span id="PING_CONTENT_DLS_POPUP" style="display: none;"></span><div style="background-color: transparent; border: none; bottom: 15px; display: block; margin: 0px; opacity: 1; padding: 0px; position: fixed; right: 15px; z-index: 2147483647;"><template shadowrootmode="closed"><style>/*!
+ * 
+ *     MCAFEE RESTRICTED CONFIDENTIAL
+ *     Copyright (c) 2024 McAfee, LLC
+ *
+ *     The source code contained or described herein and all documents related
+ *     to the source code ("Material") are owned by McAfee or its
+ *     suppliers or licensors. Title to the Material remains with McAfee
+ *     or its suppliers and licensors. The Material contains trade
+ *     secrets and proprietary and confidential information of McAfee or its
+ *     suppliers and licensors. The Material is protected by worldwide copyright
+ *     and trade secret laws and treaty provisions. No part of the Material may
+ *     be used, copied, reproduced, modified, published, uploaded, posted,
+ *     transmitted, distributed, or disclosed in any way without McAfee's prior
+ *     express written permission.
+ *
+ *     No license under any patent, copyright, trade secret or other intellectual
+ *     property right is granted to or conferred upon you by disclosure or
+ *     delivery of the Materials, either expressly, by implication, inducement,
+ *     estoppel or otherwise. Any license under such intellectual property rights
+ *     must be expressed and approved by McAfee in writing.
+ *
+ */
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,400;0,500;0,600;0,800;1,400;1,500;1,600;1,800&display=swap);
+*{border:0;box-sizing:border-box;font:inherit;font-family:"mcafeeOpenSans","Poppins",Helvetica,Arial,Arial,Helvetica,sans-serif;font-size:100%;margin:0;padding:0;vertical-align:baseline;outline:none}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}html,body{background-color:#f5f6fa;font-family:"Poppins",Helvetica,Arial,"mcafeeOpenSans",Arial,Helvetica,sans-serif;line-height:1;height:100%;width:100%}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:"";content:none}table{border-collapse:collapse;border-spacing:0}b{font-weight:bold}img{display:block}.dls__container{align-items:center;display:flex;margin:0 auto;margin-top:50px;position:relative}.dls__popup__expanded{align-items:center;overflow:hidden;border-radius:100px;cursor:pointer;display:flex;left:0;padding:15px;position:absolute;height:95px;width:383px;background-color:#fff;transition:all .3s ease-in-out}.dls__popup__expanded .dls__icon{height:65px;width:73px}.content{margin-left:12px}.content .content__images{display:flex;align-items:center;width:250px}.content .content__images .seperator__line{margin-left:5px;margin-right:10px}.content .content__images #dls_close_icon{cursor:pointer;margin-left:auto;margin-right:0px}.content p{font-family:"Poppins",Arial,Helvetica,sans-serif;font-weight:"400";font-size:14px;line-height:20px;margin-top:8px;color:#4258ff;width:250px;cursor:pointer}.shield{overflow:hidden;box-shadow:0px 2px 4px 0px rgba(33,41,52,.12),0px -1px 2px 0px rgba(0,0,0,.08);align-items:center;border-radius:100px;bottom:0;display:flex;height:95px;justify-content:center;position:absolute;right:0;width:383px;transition:all .3s ease-in-out}.shield__circle{display:flex;justify-content:center;align-items:center;width:55px;height:55px;background-color:#c01818;transition:all .6s ease-in-out .2s;z-index:1;opacity:0}
+
+/*# sourceMappingURL=../sourceMap/chrome/css/download_scan_popup.css.map*/</style><div class="dls__container">
+  <div class="shield" style="background: transparent; opacity: 0.1; display: none;">
+    <div class="shield__circle" style="opacity: 1;">
+      <img src="chrome-extension://fheoggkfdfchfphceeifdbepaooicaho/images/download_scan/mcafee_logo_white.svg?secret=ker73e" x-mcsrc="" id="dls_ballon_icon" x-mcsrcparsed="true">
+    </div>
+    <div class="dls__popup__expanded" style="opacity: 0;">
+      <img src="chrome-extension://fheoggkfdfchfphceeifdbepaooicaho/images/download_scan/download_scan_icon.svg?secret=ker73e" x-mcsrc="" class="dls__icon" x-mcsrcparsed="true">
+      <div class="content">
+        <div class="content__images">
+          <img src="chrome-extension://fheoggkfdfchfphceeifdbepaooicaho/images/download_scan/mcafee_logo_red.svg?secret=ker73e" x-mcsrc="" id="dls_mcafee_logo" x-mcsrcparsed="true">
+          <img src="chrome-extension://fheoggkfdfchfphceeifdbepaooicaho/images/download_scan/seperator_line.svg?secret=ker73e" x-mcsrc="" class="seperator__line" x-mcsrcparsed="true">
+          <img src="chrome-extension://fheoggkfdfchfphceeifdbepaooicaho/images/download_scan/webadvisor.svg?secret=ker73e" x-mcsrc="" x-mcsrcparsed="true">
+          <img src="chrome-extension://fheoggkfdfchfphceeifdbepaooicaho/images/download_scan/close-outline.svg?secret=ker73e" x-mcsrc="" id="dls_close_icon" x-mcsrcparsed="true">
+        </div>
+        <p id="download_scan_popup_expanded_descriptions">Your download's being scanned. We'll let you know if there's an issue.</p>
+      </div>
+    </div>
+  </div>
+</div><style>/*!
+ * 
+ *     MCAFEE RESTRICTED CONFIDENTIAL
+ *     Copyright (c) 2024 McAfee, LLC
+ *
+ *     The source code contained or described herein and all documents related
+ *     to the source code ("Material") are owned by McAfee or its
+ *     suppliers or licensors. Title to the Material remains with McAfee
+ *     or its suppliers and licensors. The Material contains trade
+ *     secrets and proprietary and confidential information of McAfee or its
+ *     suppliers and licensors. The Material is protected by worldwide copyright
+ *     and trade secret laws and treaty provisions. No part of the Material may
+ *     be used, copied, reproduced, modified, published, uploaded, posted,
+ *     transmitted, distributed, or disclosed in any way without McAfee's prior
+ *     express written permission.
+ *
+ *     No license under any patent, copyright, trade secret or other intellectual
+ *     property right is granted to or conferred upon you by disclosure or
+ *     delivery of the Materials, either expressly, by implication, inducement,
+ *     estoppel or otherwise. Any license under such intellectual property rights
+ *     must be expressed and approved by McAfee in writing.
+ *
+ */
+.mc-interactive-balloon{position:absolute;right:-50px;bottom:8px;box-shadow:rgba(0,0,0,.12) 0px 0px 10px;height:40px;width:40px;background:#1671ee;border-radius:20px;display:flex;justify-content:center;align-items:center}
+
+/*# sourceMappingURL=../sourceMap/chrome/css/interactive_balloon.css.map*/</style></template></div></body></html>
